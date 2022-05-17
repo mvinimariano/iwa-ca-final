@@ -1,0 +1,31 @@
+{
+  "name": "iwa_ca_final",
+  "version": "1.0.0",
+  "description": "iwa final project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvinimariano/IWA_CA_FINAL.git"
+  },
+  "author": "Marcos Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvinimariano/IWA_CA_FINAL/issues"
+  },
+  "homepage": "https://github.com/mvinimariano/IWA_CA_FINAL#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "express": "3.x" ,
+    "connect": "2.x"
+  }
+}
